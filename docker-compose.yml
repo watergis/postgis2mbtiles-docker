@@ -1,0 +1,13 @@
+version: '2'
+services:
+  nodejs:
+    image: watergis/postgis2mbtiles-docker:v0.0.1
+    build: .
+    environment: 
+     - db_user=postgres
+     - db_password=$db_password
+     - db_host=host.docker.internal
+     - db_post=5432
+    volumes:
+      - ./data:/tmp/src/data
+      - ./config.js:/tmp/src/config.js

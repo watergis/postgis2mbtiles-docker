@@ -1,0 +1,31 @@
+{
+  "name": "postgis2mbtiles-docker",
+  "version": "1.0.0",
+  "description": "This is postgis2mbtiles for Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watergis/postgis2mbtiles-docker.git"
+  },
+  "keywords": [
+    "tippecanoe",
+    "docker",
+    "mbtiles",
+    "vectortiles"
+  ],
+  "author": "Jin IGARASHI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watergis/postgis2mbtiles-docker/issues"
+  },
+  "homepage": "https://github.com/watergis/postgis2mbtiles-docker#readme",
+  "dependencies": {
+    "@watergis/postgis2mbtiles": "^0.1.4",
+    "dotenv": "^8.2.0",
+    "path": "^0.12.7"
+  }
+}
