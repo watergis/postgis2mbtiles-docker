@@ -13,7 +13,7 @@ Please put environment variable for database settings.
 db_user=$db_user
 db_password=$db_password
 db_host=host.docker.internal
-db_post=5432
+db_port=5432
 ```
 
 ## Usage (Docker)

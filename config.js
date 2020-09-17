@@ -15,7 +15,7 @@ module.exports = {
       user:process.env.db_user,
       password:process.env.db_password,
       host:process.env.db_host,
-      post:process.env.db_port,
+      port:process.env.db_port,
       database:'narwassco',
     },
     mbtiles: export_dir + '/data.mbtiles',
