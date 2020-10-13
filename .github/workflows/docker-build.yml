@@ -1,0 +1,21 @@
+name: Docker Image CI
+
+on:
+  push:
+    # Run `master` as Docker `latest` image.
+    branches:
+      - master
+
+  # Run tests for any PRs.
+  pull_request:
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag watergis/postgis2mbtiles-docker:$(date +%s)
