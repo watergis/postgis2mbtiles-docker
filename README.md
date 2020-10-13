@@ -1,7 +1,6 @@
 # postgis2mbtiles-docker
 ![GitHub](https://img.shields.io/github/license/watergis/postgis2mbtiles-docker)
-![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/watergis/postgis2mbtiles-docker)
-![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/watergis/postgis2mbtiles-docker)
+![Docker Build CI](https://github.com/watergis/postgis2mbtiles-docker/workflows/Docker%20Image%20CI/badge.svg)
 
 This is postgis2mbtiles for Docker
 
